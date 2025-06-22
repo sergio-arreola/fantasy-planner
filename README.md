@@ -130,9 +130,6 @@ Please keep code style consistent, and update this README if you add significant
 
 _Now stop procrastinating and go write that novel._ ✍️
 
-📄 License
+## 📄 License
+
 This project is released under the MIT License. See [LICENSE](LICENSE.txt) for details.
-
-```
-
-```
