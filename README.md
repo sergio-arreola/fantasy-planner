@@ -65,7 +65,7 @@ The data lives in your browser's session storage while you work, and you can exp
 
 ## Project Structure
 
-````text
+```text
 fantasy-planner/
 ├── index.html        # Vite entrypoint, mounts <App/> into #root
 ├── public/           # Static assets (favicon, etc.)
@@ -86,6 +86,7 @@ fantasy-planner/
 ├── vite.config.js    # Vite configuration
 ├── package.json
 └── README.md         # You are here
+```
 
 ## 🎯 Perfect For
 
@@ -112,6 +113,8 @@ Found a bug? Have an idea for a feature that would make your writing life easier
 1. ```Fork the repo & create a feature branch:
 
    git checkout -b feature/YourFeature
+   ```
+
 ````
 
 2. ```Commit your changes & push:
@@ -129,3 +132,4 @@ _Now stop procrastinating and go write that novel._ ✍️
 
 📄 License
 This project is released under the MIT License. See [LICENSE](LICENSE.txt) for details.
+````
