@@ -110,17 +110,17 @@ fantasy-planner/
 
 Found a bug? Have an idea for a feature that would make your writing life easier? Issues and pull requests are welcome. This tool exists to make fantasy writing less of a logistical nightmare, so if you've got ideas to make it better, we'd love to hear them.
 
-1. ```Fork the repo & create a feature branch:
+1. Fork the repo & create a feature branch:
 
+```
    git checkout -b feature/YourFeature
-   ```
+```
 
-````
+2. Commit your changes & push:
 
-2. ```Commit your changes & push:
-
+```
    git commit -m "Add YourFeature"
-   ```
+```
 
 3. Open a Pull Request against main.
 
@@ -132,4 +132,7 @@ _Now stop procrastinating and go write that novel._ ✍️
 
 📄 License
 This project is released under the MIT License. See [LICENSE](LICENSE.txt) for details.
-````
+
+```
+
+```
