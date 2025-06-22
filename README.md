@@ -132,4 +132,6 @@ _Now stop procrastinating and go write that novel._ ✍️
 
 ## 📄 License
 
-This project is released under the MIT License. See [LICENSE](LICENSE.txt) for details.
+This project is released under the MIT License with the Commons Clause—
+permission granted for personal/non-commercial use only. Commercial use,
+distribution, or derivative works require a separate license from the author. See [LICENSE](LICENSE.txt) for details.
