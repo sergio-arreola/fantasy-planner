@@ -63,26 +63,29 @@ This isn't just thrown together—it's got a clean structure that makes sense:
 
 The data lives in your browser's session storage while you work, and you can export it as JSON whenever you want a permanent backup.
 
+## Project Structure
+
+````text
 fantasy-planner/
-├── index.html # Vite entrypoint, mounts <App/> into #root
-├── public/ # Static assets (favicon, etc.)
+├── index.html        # Vite entrypoint, mounts <App/> into #root
+├── public/           # Static assets (favicon, etc.)
 ├── src/
-│ ├── main.jsx # React bootstrap + global CSS import
-│ ├── App.jsx # High-level layout & state wiring
-│ ├── components/ # Reusable UI pieces
-│ │ ├── Header.jsx
-│ │ ├── TabNav.jsx
-│ │ ├── Spreadsheet.jsx # Renders each “sheet” based on data config
-│ │ └── ExportButton.jsx
-│ ├── hooks/
-│ │ └── useAutoSave.js # Persist form data to sessionStorage
-│ ├── utils/
-│ │ └── exportData.js # Gathers fields and triggers JSON download
-│ └── styles/
-│ └── style.css # All app-wide CSS
-├── vite.config.js # Vite configuration
+│   ├── main.jsx      # React bootstrap + global CSS import
+│   ├── App.jsx       # High-level layout & state wiring
+│   ├── components/   # Reusable UI pieces
+│   │   ├── Header.jsx
+│   │   ├── TabNav.jsx
+│   │   ├── Spreadsheet.jsx   # Renders each “sheet” based on data config
+│   │   └── ExportButton.jsx
+│   ├── hooks/
+│   │   └── useAutoSave.js    # Persist form data to sessionStorage
+│   ├── utils/
+│   │   └── exportData.js     # Gathers fields and triggers JSON download
+│   └── styles/
+│       └── style.css         # All app-wide CSS
+├── vite.config.js    # Vite configuration
 ├── package.json
-└── README.md # You are here
+└── README.md         # You are here
 
 ## 🎯 Perfect For
 
@@ -109,7 +112,7 @@ Found a bug? Have an idea for a feature that would make your writing life easier
 1. ```Fork the repo & create a feature branch:
 
    git checkout -b feature/YourFeature
-   ```
+````
 
 2. ```Commit your changes & push:
 
