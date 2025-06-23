@@ -4,7 +4,7 @@ import React from "react";
 const sections = [
   {
     key: "worldbuilding",
-    title: "World Building & Lore",
+    title: "Worldbuilding & Lore",
     subtitle:
       "Document your world's history, geography, cultures, and mythology",
     instructions:
